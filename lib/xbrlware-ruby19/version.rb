@@ -18,5 +18,5 @@
 #           limitations under the License.
 #
 module Xbrlware
-  VERSION = "1.1.2-19"
+  VERSION = "1.1.2.19"
 end

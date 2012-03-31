@@ -17,16 +17,16 @@
 #           See the License for the specific language governing permissions and
 #           limitations under the License.
 #
-#require 'rubygems'
+require 'rubygems'
 #gem 'xml-simple'#, '= 1.0.12'
-#require 'xmlsimple'
-#
-#require 'date'
-#require 'bigdecimal'
-#require 'erb'
-#require 'set'
-#require "stringio"
-#require 'cgi'
+require 'xmlsimple'
+
+require 'date'
+require 'bigdecimal'
+require 'erb'
+require 'set'
+require "stringio"
+require 'cgi'
 
 require 'xbrlware-ruby19/version'
 require 'xbrlware-ruby19/float_patch'
@@ -59,7 +59,7 @@ require 'xbrlware-ruby19/linkbase/calculation_linkbase'
 require 'xbrlware-ruby19/linkbase/definition_linkbase'
 require 'xbrlware-ruby19/linkbase/presentation_linkbase'
 
-#require 'logger'
+require 'logger'
 #require 'benchmark'
 
 ENV["TAXO_NAME"]="US-GAAP"
