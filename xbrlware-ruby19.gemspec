@@ -4,8 +4,8 @@ require File.expand_path('../lib/xbrlware-ruby19/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Jim Lindstrom"]
   gem.email         = ["jim.lindstrom@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Re-packaging of xbrlware for ruby19}
+  gem.summary       = %q{Re-packaging of xbrlware for ruby19}
   gem.homepage      = ""
 
   gem.add_dependency 'xml-simple'
