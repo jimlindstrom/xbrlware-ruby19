@@ -18,7 +18,6 @@
 #           limitations under the License.
 #
 require 'rubygems'
-#gem 'xml-simple'#, '= 1.0.12'
 require 'xmlsimple'
 
 require 'date'
@@ -58,6 +57,9 @@ require 'xbrlware-ruby19/linkbase/label_linkbase'
 require 'xbrlware-ruby19/linkbase/calculation_linkbase'
 require 'xbrlware-ruby19/linkbase/definition_linkbase'
 require 'xbrlware-ruby19/linkbase/presentation_linkbase'
+
+require 'xbrlware-ruby19/edgar_data_downloader'
+require 'xbrlware-ruby19/edgar_util'
 
 require 'logger'
 require 'benchmark'
