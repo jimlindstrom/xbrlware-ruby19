@@ -17,8 +17,9 @@
 #           See the License for the specific language governing permissions and
 #           limitations under the License.
 #
-require 'rubygems'
 require 'xmlsimple'
+require 'rexml/document'
+require 'rexml/streamlistener'
 
 require 'date'
 require 'bigdecimal'
@@ -58,8 +59,8 @@ require 'xbrlware-ruby19/linkbase/calculation_linkbase'
 require 'xbrlware-ruby19/linkbase/definition_linkbase'
 require 'xbrlware-ruby19/linkbase/presentation_linkbase'
 
-require 'xbrlware-ruby19/edgar_data_downloader'
 require 'xbrlware-ruby19/edgar_util'
+require 'xbrlware-ruby19/edgar_data_downloader'
 
 require 'logger'
 require 'benchmark'

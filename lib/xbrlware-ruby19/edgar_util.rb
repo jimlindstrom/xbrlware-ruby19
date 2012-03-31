@@ -17,14 +17,16 @@
 #           See the License for the specific language governing permissions and
 #           limitations under the License.
 #
-module Edgar
-  module FileUtil # :nodoc:
-    def mkdir(dir)
-      File.makedirs(dir) unless File.directory?(dir)  
+module Xbrlware
+  module Edgar
+    module FileUtil # :nodoc:
+      #def mkdir(dir)
+      #  File.makedirs(dir) unless File.directory?(dir)  
+      #end
+      
+      def dump_to_file(file, content)
+        File.open(file, 'w') {|f| f.write(content) }
+      end  
     end
-    
-    def dump_to_file(file, content)
-      File.open(file, 'w') {|f| f.write(content) }
-    end  
   end
 end
