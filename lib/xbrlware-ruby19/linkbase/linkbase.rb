@@ -76,7 +76,7 @@ module Xbrlware
         # map contains different instance (that equals to child) as key.
         # Delete the key, reinsert the proper instance as key  
         children_of_child=map[child]
-        map.delete(child)
+        #map.delete(child)
         map[child]=children_of_child
         wireup_relationship(map, child, map[child])
       end
