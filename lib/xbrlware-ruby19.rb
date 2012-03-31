@@ -60,7 +60,7 @@ require 'xbrlware-ruby19/linkbase/definition_linkbase'
 require 'xbrlware-ruby19/linkbase/presentation_linkbase'
 
 require 'logger'
-#require 'benchmark'
+require 'benchmark'
 
 ENV["TAXO_NAME"]="US-GAAP"
 ENV["TAXO_VER"]="20090131"
