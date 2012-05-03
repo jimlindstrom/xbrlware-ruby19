@@ -80,7 +80,7 @@ module Xbrlware
   
     end
   
-    # This class defines method to download XBRL files from SEC's EDGAR filling url.
+    # This class defines method to download XBRL files from SEC's EDGAR filing url.
     # See {report generation xbrlware wiki}[http://code.google.com/p/xbrlware/wiki/ReportGeneration] for how to use this class.
     class HTMLFeedDownloader
       include REXML::StreamListener
@@ -91,7 +91,7 @@ module Xbrlware
       # Takes url and download_to (where to download)
       #  default value for download_to is current_dir    
       def download(url, download_to=File.expand_path(".")+File::SEPARATOR)
-        $LOG.info " Starting download of fillings from SEC url ["+url+"]"
+        $LOG.info " Starting download of filings from SEC url ["+url+"]"
         files=[]
         content = open(url).read
         @links = Set.new
